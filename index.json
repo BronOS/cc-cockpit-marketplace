@@ -13,14 +13,14 @@
       "api": 1
     },
     {
-      "id": "cockpit.example",
+      "id": "example.plugin",
       "name": "Example",
       "description": "A click counter to copy as a starting point for your own plugin. One panel, one setting, one command.",
       "author": "BronOS",
       "repo": "https://github.com/BronOS/cc-cockpit-plugin-example.git",
-      "version": "1.0.1",
-      "tag": "v1.0.1",
-      "commit": "14de945f9ce2a092bd1f932ecbc2018a09a12364",
+      "version": "1.0.2",
+      "tag": "v1.0.2",
+      "commit": "ea9e74917f6abdfc239da35911ea4e18ca298da1",
       "api": 1
     }
   ],
