@@ -1,5 +1,17 @@
 {
   "schema": 1,
-  "plugins": [],
+  "plugins": [
+    {
+      "id": "cockpit.example",
+      "name": "Example",
+      "description": "A click counter to copy as a starting point for your own plugin. One panel, one setting, one command.",
+      "author": "BronOS",
+      "repo": "https://github.com/BronOS/cc-cockpit-plugin-example.git",
+      "version": "1.0.0",
+      "tag": "v1.0.0",
+      "commit": "944bba97e4d43b5f00c101a5dff5bf48aeb39eae",
+      "api": 1
+    }
+  ],
   "revoked": []
 }
