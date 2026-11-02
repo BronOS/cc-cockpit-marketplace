@@ -13,5 +13,11 @@
       "api": 1
     }
   ],
-  "revoked": []
+  "revoked": [
+    {
+      "id": "cockpit.example",
+      "commit": "14de945f9ce2a092bd1f932ecbc2018a09a12364",
+      "reason": "Test of the revocation flow, removed right after. Nothing is wrong with this version."
+    }
+  ]
 }
