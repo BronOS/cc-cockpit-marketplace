@@ -93,20 +93,35 @@ function isPlainObject(v) {
 // ../../src/shared/manifest.ts
 var PLUGIN_ID_PATTERN = /^[a-z0-9][a-z0-9-]*(\.[a-z0-9][a-z0-9-]*)*\.[a-z][a-z0-9-]*$/;
 var PLUGIN_ID_MAX_LENGTH = 100;
+var RESERVED_PLUGIN_ID_PREFIX = "cockpit.";
+var RESERVED_PLUGIN_ID_MESSAGE = "ids starting with cockpit. are reserved for plugins that ship with the app";
+function isReservedPluginId(id) {
+  return id.normalize("NFKC").trim().toLowerCase().startsWith(RESERVED_PLUGIN_ID_PREFIX);
+}
 var PLUGIN_VERSION_PATTERN = /^\d+\.\d+\.\d+(?:-[0-9A-Za-z.-]+)?(?:\+[0-9A-Za-z.-]+)?$/;
 var CONTRIBUTION_ID_PATTERN = /^[A-Za-z0-9][A-Za-z0-9._-]{0,63}$/;
 var SKILL_ID_PATTERN = /^[a-z0-9][a-z0-9-]{0,63}$/;
 var MAX_SKILLS = 10;
 var CLI_NAME_PATTERN = /^[a-z][a-z0-9-]{1,31}$/;
-var CORE_CLI_COMMANDS = ["open", "hook", "session", "overlay", "sessions", "notify", "guide", "plugin", "help"];
+var CORE_CLI_COMMANDS = ["open", "hook", "session", "overlay", "sessions", "notify", "guide", "plugin", "panel", "help"];
 var RESERVED_CLI_NAMES = [...CORE_CLI_COMMANDS, "app", "config", "version"];
 var MAX_CLI_COMMANDS = 10;
+var SERVICE_NAME_PATTERN = /^[a-z][a-z0-9-]{0,63}$/;
+var SERVICE_VERSION_MIN = 1;
+var SERVICE_VERSION_MAX = 9999;
+var MAX_SERVICES = 32;
 var MAX_PATH_LENGTH = 260;
 var MAX_LIST = 100;
 var relativePath = { type: "string", minLength: 1, maxLength: MAX_PATH_LENGTH };
 var title = { type: "string", minLength: 1, maxLength: 100 };
 var contributionId = { type: "string", pattern: CONTRIBUTION_ID_PATTERN.source };
 var settingsSchema = { type: "object" };
+var serviceMap = {
+  type: "object",
+  maxProperties: MAX_SERVICES,
+  propertyNames: { pattern: SERVICE_NAME_PATTERN.source },
+  additionalProperties: { type: "integer", minimum: SERVICE_VERSION_MIN, maximum: SERVICE_VERSION_MAX }
+};
 var MANIFEST_SCHEMA = {
   type: "object",
   required: ["id", "name", "version", "api"],
@@ -116,6 +131,10 @@ var MANIFEST_SCHEMA = {
     version: { type: "string", maxLength: 64, pattern: PLUGIN_VERSION_PATTERN.source },
     api: { type: "integer" },
     main: relativePath,
+    // Strict inside, unlike the top level: a key the app does not know here (`description`, a
+    // misspelt `provide`) is a declaration that silently does nothing, and the plugin host reads
+    // only these two.
+    services: { type: "object", additionalProperties: false, properties: { provides: serviceMap, uses: serviceMap } },
     contributes: {
       type: "object",
       properties: {
@@ -186,7 +205,10 @@ var MANIFEST_SCHEMA = {
               stdin: { type: "boolean" }
             }
           }
-        }
+        },
+        // An object, not `true`: the title is what the person reads when picking the plugin that
+        // opens files, and a later field (file kinds, say) has room here.
+        openFile: { type: "object", required: ["title"], properties: { title } }
       }
     }
   }
@@ -237,6 +259,7 @@ function parseEntry(raw, indexUrl) {
   const { id, name, description, author, repo, version, tag, commit, api } = raw;
   if (typeof id !== "string" || id.length > PLUGIN_ID_MAX_LENGTH || !PLUGIN_ID_PATTERN.test(id))
     return bad('"id" is not a valid plugin id');
+  if (isReservedPluginId(id)) return bad(`"id": ${RESERVED_PLUGIN_ID_MESSAGE}`);
   if (!label(name, MAX_NAME_LENGTH))
     return bad(
       `"name" must be 1 to ${MAX_NAME_LENGTH} characters, not blank, with no control or bidi characters`
