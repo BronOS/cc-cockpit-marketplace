@@ -2,6 +2,17 @@
   "schema": 1,
   "plugins": [
     {
+      "id": "bronos.calendar",
+      "name": "Google Calendar",
+      "description": "Your Google Calendar as a day strip and a today timeline, with invitations to answer (Accept / Maybe / Decline), tomorrow and upcoming events, and reminders with a sound you choose and a Join click for Meet. One account per project through your own OAuth client (the panel walks you through it); the Jira issue beside an event that names one. Needs cc-cockpit 0.9.4 or later; 0.9.5 for reminder sounds and Join.",
+      "author": "BronOS",
+      "repo": "https://github.com/BronOS/cc-cockpit-calendar.git",
+      "version": "0.1.0",
+      "tag": "v0.1.0",
+      "commit": "cdb5925471d6f623994ac18b2ccf42d50559a0aa",
+      "api": 1
+    },
+    {
       "id": "bronos.chat",
       "name": "Google Chat",
       "description": "Your Google Chat in lanes (Mentions, Direct messages, Spaces, Alerts, Recent) for a Google Workspace account, one account per project through your own OAuth client (the panel walks you through it). Mark read and unread; open a conversation as a page, annotate it and discuss it with Claude. Sorted by priority when Jev triage (bronos.jev-triage) is installed. Needs cc-cockpit 0.9.2 or later; 0.9.4 opens conversations at the newest message.",
