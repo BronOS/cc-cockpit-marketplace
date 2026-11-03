@@ -1,12 +1,12 @@
 {
   "id": "bronos.gmail",
   "name": "Gmail",
-  "description": "Your Gmail in lanes (Unread, Alerts with Grafana grouping, Read), read-only, one Google account per project through your own OAuth client (the panel walks you through it). Open a thread as a clean page with its images, annotate it and discuss it with Claude. Sorted by priority when Jev triage (bronos.jev-triage) is installed. Needs cc-cockpit 0.9.1 or later; 0.9.2 recommended.",
+  "description": "Your Gmail in lanes (Unread, Alerts with Grafana grouping, Read), read-only, one Google account per project through your own OAuth client (the panel walks you through it). Open a thread as a clean page with its images, annotate it and discuss it with Claude. Sorted by priority when Jev triage (bronos.jev-triage) is installed. With the Jira plugin, a mail from Jira shows its issue side by side (cc-cockpit 0.9.3) and is triaged by the issue. Needs cc-cockpit 0.9.1 or later; 0.9.2 recommended.",
   "author": "BronOS",
   "repo": "https://github.com/BronOS/cc-cockpit-gmail.git",
-  "version": "0.1.0",
-  "tag": "v0.1.0",
-  "commit": "ea33ec67a5ad6d6ed43b6d40aee1784b09db4634",
+  "version": "0.2.0",
+  "tag": "v0.2.0",
+  "commit": "40d3fbd9fe3ad81428dacd24a356ba71bc3efb29",
   "api": 1,
   "owners": [741663]
 }
