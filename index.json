@@ -2,6 +2,17 @@
   "schema": 1,
   "plugins": [
     {
+      "id": "bronos.jev-triage",
+      "name": "Jev triage",
+      "description": "Requires the Jev plugin (bronos.jev). The \"triage\" plugin service for source plugins (mail, Jira, chat): a priority (urgent, action, fyi, noise) and a kind per item, judged by Jev, with per-project rules, a profile of what you own, your corrections, and an improve loop that turns a wrong verdict into a better rule or profile in a Claude tab.",
+      "author": "BronOS",
+      "repo": "https://github.com/BronOS/cc-cockpit-jev-triage.git",
+      "version": "1.0.0",
+      "tag": "v1.0.0",
+      "commit": "1dd42ef43ca624ecc929d1a2ee9f23d133ce79fe",
+      "api": 1
+    },
+    {
       "id": "bronos.jev",
       "name": "Jev",
       "description": "Jev, TypeSafe's cheap typed classifier, as the \"jev\" plugin service: other plugins ask choice, yes/no and score questions (one request, or a grid over many items). OpenRouter, TypeSafe direct or a custom endpoint; usage counted per calling plugin, with a monthly spending cap. Choices only, no free-form text generation.",
