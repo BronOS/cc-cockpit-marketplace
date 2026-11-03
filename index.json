@@ -29,9 +29,9 @@
       "description": "Your Jira Cloud issues in lanes (Backlog, In progress, Mentioned, On hold, Done) with unread marks, read-only towards Jira. Open an issue as a styled page with its images, annotate it and discuss it with Claude in the current tab or a new one. Sorted by priority when Jev triage (bronos.jev-triage) is installed; annotating needs cc-cockpit 0.8.0 or later.",
       "author": "BronOS",
       "repo": "https://github.com/BronOS/cc-cockpit-jira.git",
-      "version": "0.3.0",
-      "tag": "v0.3.0",
-      "commit": "246dc8cfd8eba9f38feaaea6d082bbdf1de6f10d",
+      "version": "0.4.0",
+      "tag": "v0.4.0",
+      "commit": "1fcc2a8adc3b90f9428ca19e67db3b067479a88a",
       "api": 1
     },
     {
