@@ -4,9 +4,9 @@
   "description": "Jev, TypeSafe's cheap typed classifier, as the \"jev\" plugin service: other plugins ask choice, yes/no and score questions (one request, or a grid over many items). OpenRouter, TypeSafe direct or a custom endpoint; usage counted per calling plugin, with a monthly spending cap. Choices only, no free-form text generation.",
   "author": "BronOS",
   "repo": "https://github.com/BronOS/cc-cockpit-jev.git",
-  "version": "1.0.0",
-  "tag": "v1.0.0",
-  "commit": "e7eff62bcc0f574043e19d16f5502643ee33d585",
+  "version": "1.0.1",
+  "tag": "v1.0.1",
+  "commit": "73e9714fbad8813ac32e76d0b1e572f4447a259b",
   "api": 1,
   "owners": [741663]
 }
