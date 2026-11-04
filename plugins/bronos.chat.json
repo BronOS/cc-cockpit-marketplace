@@ -4,9 +4,9 @@
   "description": "Your Google Chat in lanes (Mentions, Direct messages, Spaces, Alerts, Recent) for a Google Workspace account, one account per project through your own OAuth client (the panel walks you through it). Mark read and unread; open a conversation as a page, annotate it and discuss it with Claude. Sorted by priority when Jev triage (bronos.jev-triage) is installed. Needs cc-cockpit 0.9.2 or later; 0.9.4 opens conversations at the newest message.",
   "author": "BronOS",
   "repo": "https://github.com/BronOS/cc-cockpit-chat.git",
-  "version": "0.1.0",
-  "tag": "v0.1.0",
-  "commit": "9480e8f7871879a3fc920e6fb5d5fd70790973cb",
+  "version": "0.2.0",
+  "tag": "v0.2.0",
+  "commit": "7ad99981a9224b9fb6c87ba787377ff104f55904",
   "api": 1,
   "owners": [741663]
 }
