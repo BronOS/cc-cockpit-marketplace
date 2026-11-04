@@ -4,9 +4,9 @@
   "description": "Your Google Calendar as a day strip and a today timeline, with invitations to answer (Accept / Maybe / Decline), tomorrow and upcoming events, and reminders with a sound you choose and a Join click for Meet. One account per project through your own OAuth client (the panel walks you through it); the Jira issue beside an event that names one. Needs cc-cockpit 0.9.4 or later; 0.9.5 for reminder sounds and Join.",
   "author": "BronOS",
   "repo": "https://github.com/BronOS/cc-cockpit-calendar.git",
-  "version": "0.1.0",
-  "tag": "v0.1.0",
-  "commit": "cdb5925471d6f623994ac18b2ccf42d50559a0aa",
+  "version": "0.2.0",
+  "tag": "v0.2.0",
+  "commit": "204e3436d2aa23e32bcaff7f4da943d694729f0d",
   "api": 1,
   "owners": [741663]
 }
