@@ -35,6 +35,17 @@
       "api": 1
     },
     {
+      "id": "bronos.inbox",
+      "name": "Inbox",
+      "description": "One panel with everything that needs you, from every plugin that offers an inbox feed (Google Chat, Gmail and Jira today), ranked by your own rules, with done, snooze and undo, a Read list to reopen what you already read, and today's calendar as a strip with the next meeting and Join (with the Calendar plugin). No account and no network calls of its own: it reads the other plugins through their services. Needs cc-cockpit 0.9.7 or later, and Chat 0.2.0, Gmail 0.4.0, Jira 0.6.0 or Calendar 0.2.0 as sources.",
+      "author": "BronOS",
+      "repo": "https://github.com/BronOS/cc-cockpit-inbox.git",
+      "version": "0.1.0",
+      "tag": "v0.1.0",
+      "commit": "134436ff8a4564e1ba0af1b439ed9ca1f896312a",
+      "api": 1
+    },
+    {
       "id": "bronos.jev-triage",
       "name": "Jev triage",
       "description": "Requires the Jev plugin (bronos.jev). The \"triage\" plugin service for source plugins (mail, Jira, chat): a priority (urgent, action, fyi, noise) and a kind per item, judged by Jev, with per-project rules, a profile of what you own, your corrections, and an improve loop that turns a wrong verdict into a better rule or profile in a Claude tab.",
@@ -62,9 +73,9 @@
       "description": "Your Jira Cloud issues in lanes (Backlog, In progress, Mentioned, On hold, Done) with unread marks, read-only towards Jira. Open an issue as a styled page with its images, annotate it and discuss it with Claude in the current tab or a new one. Sorted by priority when Jev triage (bronos.jev-triage) is installed; annotating needs cc-cockpit 0.8.0 or later.",
       "author": "BronOS",
       "repo": "https://github.com/BronOS/cc-cockpit-jira.git",
-      "version": "0.5.0",
-      "tag": "v0.5.0",
-      "commit": "8b434d1383ad1ad8ab758c4d66604dd8e382e45c",
+      "version": "0.6.0",
+      "tag": "v0.6.0",
+      "commit": "f106ebb281bc9e3f891b69d03bb2dc8e19d3515f",
       "api": 1
     },
     {
