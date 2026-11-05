@@ -1,12 +1,13 @@
 {
   "id": "bronos.jira",
   "name": "Jira",
-  "description": "Your Jira Cloud issues in lanes (Backlog, In progress, Mentioned, On hold, Done) with unread marks, read-only towards Jira. Open an issue as a styled page with its images, annotate it and discuss it with Claude in the current tab or a new one. Sorted by priority when Jev triage (bronos.jev-triage) is installed; annotating needs cc-cockpit 0.8.0 or later.",
+  "description": "Your Jira Cloud issues in lanes (Backlog, In progress, Mentioned, On hold, Done) with unread marks, read-only towards Jira. Open an issue as a styled page to discuss with Claude. Sorted by Jev triage when installed. Provides the jira service (issue status and view) to other plugins such as Gmail, and feeds Inbox 0.2.0 (inbox feed version 2). Needs cc-cockpit 0.8.0 or later; 0.10.0 for Inbox 0.2.0 and the overlay toolbar buttons.",
   "author": "BronOS",
   "repo": "https://github.com/BronOS/cc-cockpit-jira.git",
-  "version": "0.6.0",
-  "tag": "v0.6.0",
-  "commit": "f106ebb281bc9e3f891b69d03bb2dc8e19d3515f",
+  "version": "0.7.0",
+  "tag": "v0.7.0",
+  "commit": "e43f5b392ec27ff61da2184cc6b3024aa51c54a1",
   "api": 1,
+  "category": "integrations",
   "owners": [741663]
 }
