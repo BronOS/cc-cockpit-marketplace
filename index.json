@@ -10,7 +10,8 @@
       "version": "0.2.0",
       "tag": "v0.2.0",
       "commit": "204e3436d2aa23e32bcaff7f4da943d694729f0d",
-      "api": 1
+      "api": 1,
+      "category": "other"
     },
     {
       "id": "bronos.chat",
@@ -21,7 +22,8 @@
       "version": "0.2.0",
       "tag": "v0.2.0",
       "commit": "7ad99981a9224b9fb6c87ba787377ff104f55904",
-      "api": 1
+      "api": 1,
+      "category": "other"
     },
     {
       "id": "bronos.gmail",
@@ -32,7 +34,8 @@
       "version": "0.4.0",
       "tag": "v0.4.0",
       "commit": "dc1fc9577797998a7876191797f1f6238c6dd64b",
-      "api": 1
+      "api": 1,
+      "category": "other"
     },
     {
       "id": "bronos.inbox",
@@ -43,7 +46,8 @@
       "version": "0.1.0",
       "tag": "v0.1.0",
       "commit": "134436ff8a4564e1ba0af1b439ed9ca1f896312a",
-      "api": 1
+      "api": 1,
+      "category": "other"
     },
     {
       "id": "bronos.jev-triage",
@@ -54,7 +58,8 @@
       "version": "1.0.1",
       "tag": "v1.0.1",
       "commit": "c3e30e52fb02f37329e9441334ba6713a4d92255",
-      "api": 1
+      "api": 1,
+      "category": "other"
     },
     {
       "id": "bronos.jev",
@@ -65,7 +70,8 @@
       "version": "1.0.1",
       "tag": "v1.0.1",
       "commit": "73e9714fbad8813ac32e76d0b1e572f4447a259b",
-      "api": 1
+      "api": 1,
+      "category": "other"
     },
     {
       "id": "bronos.jira",
@@ -76,7 +82,8 @@
       "version": "0.6.0",
       "tag": "v0.6.0",
       "commit": "f106ebb281bc9e3f891b69d03bb2dc8e19d3515f",
-      "api": 1
+      "api": 1,
+      "category": "other"
     },
     {
       "id": "example.plugin",
@@ -87,7 +94,8 @@
       "version": "1.0.2",
       "tag": "v1.0.2",
       "commit": "ea9e74917f6abdfc239da35911ea4e18ca298da1",
-      "api": 1
+      "api": 1,
+      "category": "other"
     }
   ],
   "revoked": []
