@@ -4,9 +4,9 @@
   "description": "Requires the Jev plugin (bronos.jev). The \"triage\" plugin service for source plugins (mail, Jira, chat): a priority (urgent, action, fyi, noise) and a kind per item, judged by Jev, with per-project rules, a profile of what you own, your corrections, and an improve loop that turns a wrong verdict into a better rule or profile in a Claude tab.",
   "author": "BronOS",
   "repo": "https://github.com/BronOS/cc-cockpit-jev-triage.git",
-  "version": "1.0.1",
-  "tag": "v1.0.1",
-  "commit": "c3e30e52fb02f37329e9441334ba6713a4d92255",
+  "version": "1.0.2",
+  "tag": "v1.0.2",
+  "commit": "0b81124af3807ad94daff1e4a077d0a68e6a86b2",
   "api": 1,
   "category": "ai",
   "owners": [741663]
