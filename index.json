@@ -11,7 +11,10 @@
       "tag": "v0.3.0",
       "commit": "7fbf6b401b120ea73fef01c149aba6df2214f647",
       "api": 1,
-      "category": "integrations"
+      "category": "integrations",
+      "preview": {
+        "sha256": "3b71cd8dc00f29167629b0a9805d971f1dbf7d6280c7289a594576bc43df6e43"
+      }
     },
     {
       "id": "bronos.chat",
