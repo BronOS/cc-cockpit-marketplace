@@ -1,12 +1,13 @@
 {
   "id": "bronos.inbox",
   "name": "Inbox",
-  "description": "One panel with everything that needs you, from every plugin that offers an inbox feed (Google Chat, Gmail and Jira today), ranked by your own rules, with done, snooze and undo, a Read list to reopen what you already read, and today's calendar as a strip with the next meeting and Join (with the Calendar plugin). No account and no network calls of its own: it reads the other plugins through their services. Needs cc-cockpit 0.9.7 or later, and Chat 0.2.0, Gmail 0.4.0, Jira 0.6.0 or Calendar 0.2.0 as sources.",
+  "description": "One list of what needs you across Chat, Mail and Jira (any plugin that offers an inbox feed, version 2), placed in groups by your own rules (Jev questions included), with done, snooze, undo and search, and Calendar's agenda in a slot. Rules are global, or a project keeps its own set (work and personal projects apart). It reads the other plugins through their services and has no account of its own. Needs cc-cockpit 0.10.0, and Chat 0.3.0, Gmail 0.5.0, Jira 0.7.0 or Calendar 0.3.0 as sources.",
   "author": "BronOS",
   "repo": "https://github.com/BronOS/cc-cockpit-inbox.git",
-  "version": "0.1.0",
-  "tag": "v0.1.0",
-  "commit": "134436ff8a4564e1ba0af1b439ed9ca1f896312a",
+  "version": "0.2.0",
+  "tag": "v0.2.0",
+  "commit": "516abb26c9a08dca330cd282b288182431987a73",
   "api": 1,
+  "category": "productivity",
   "owners": [741663]
 }
