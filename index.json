@@ -83,7 +83,10 @@
       "tag": "v1.0.2",
       "commit": "6088943834246a912d6363e5866e835a5ac48a96",
       "api": 1,
-      "category": "ai"
+      "category": "ai",
+      "preview": {
+        "sha256": "04a3da07ee2b6be56f6f7cfdf6eed3438dd26a25e694e55e41fe4f6b93bb4c1f"
+      }
     },
     {
       "id": "bronos.jira",
