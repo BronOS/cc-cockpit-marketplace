@@ -7,13 +7,13 @@
       "description": "Your Google Calendar beside your Claude tabs: the meeting now and next with a countdown and Join, invitations to answer (Accept / Maybe / Decline), today, tomorrow and the next days, reminders with a sound you choose, an event opened as a clean page to discuss with Claude. One account per project through your own OAuth client (the panel walks you through it). It changes nothing in Google Calendar but your answers to invitations. Provides the agenda slot for Inbox 0.2.0 (needs cc-cockpit 0.10.0). Needs cc-cockpit 0.9.4 or later; 0.9.5 for reminder sounds and Join.",
       "author": "BronOS",
       "repo": "https://github.com/BronOS/cc-cockpit-calendar.git",
-      "version": "0.3.0",
-      "tag": "v0.3.0",
-      "commit": "7fbf6b401b120ea73fef01c149aba6df2214f647",
+      "version": "0.3.1",
+      "tag": "v0.3.1",
+      "commit": "d7363974e8b2b28dfe5b0f678f3a09ffd28d4390",
       "api": 1,
       "category": "integrations",
       "preview": {
-        "sha256": "3b71cd8dc00f29167629b0a9805d971f1dbf7d6280c7289a594576bc43df6e43"
+        "sha256": "24ad8d56bb93b0f51adae5546dada22a97443ca5b7ab3bc640621b0fc2c53a05"
       }
     },
     {
