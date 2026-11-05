@@ -4,14 +4,14 @@
     {
       "id": "bronos.calendar",
       "name": "Google Calendar",
-      "description": "Your Google Calendar as a day strip and a today timeline, with invitations to answer (Accept / Maybe / Decline), tomorrow and upcoming events, and reminders with a sound you choose and a Join click for Meet. One account per project through your own OAuth client (the panel walks you through it); the Jira issue beside an event that names one. Needs cc-cockpit 0.9.4 or later; 0.9.5 for reminder sounds and Join.",
+      "description": "Your Google Calendar beside your Claude tabs: the meeting now and next with a countdown and Join, invitations to answer (Accept / Maybe / Decline), today, tomorrow and the next days, reminders with a sound you choose, an event opened as a clean page to discuss with Claude. One account per project through your own OAuth client (the panel walks you through it). It changes nothing in Google Calendar but your answers to invitations. Provides the agenda slot for Inbox 0.2.0 (needs cc-cockpit 0.10.0). Needs cc-cockpit 0.9.4 or later; 0.9.5 for reminder sounds and Join.",
       "author": "BronOS",
       "repo": "https://github.com/BronOS/cc-cockpit-calendar.git",
-      "version": "0.2.0",
-      "tag": "v0.2.0",
-      "commit": "204e3436d2aa23e32bcaff7f4da943d694729f0d",
+      "version": "0.3.0",
+      "tag": "v0.3.0",
+      "commit": "7fbf6b401b120ea73fef01c149aba6df2214f647",
       "api": 1,
-      "category": "other"
+      "category": "integrations"
     },
     {
       "id": "bronos.chat",
@@ -73,14 +73,14 @@
     {
       "id": "bronos.jev",
       "name": "Jev",
-      "description": "Jev, TypeSafe's cheap typed classifier, as the \"jev\" plugin service: other plugins ask choice, yes/no and score questions (one request, or a grid over many items). OpenRouter, TypeSafe direct or a custom endpoint; usage counted per calling plugin, with a monthly spending cap. Choices only, no free-form text generation.",
+      "description": "Jev, TypeSafe's cheap typed classifier, as the \"jev\" plugin service: other plugins ask choice, yes/no and score questions (one request, or a grid over many items). OpenRouter, TypeSafe direct or a custom endpoint; default model typesafe/jev-1.14; usage counted per calling plugin, with a monthly spending cap. Choices only, no free-form text generation.",
       "author": "BronOS",
       "repo": "https://github.com/BronOS/cc-cockpit-jev.git",
-      "version": "1.0.1",
-      "tag": "v1.0.1",
-      "commit": "73e9714fbad8813ac32e76d0b1e572f4447a259b",
+      "version": "1.0.2",
+      "tag": "v1.0.2",
+      "commit": "6088943834246a912d6363e5866e835a5ac48a96",
       "api": 1,
-      "category": "other"
+      "category": "ai"
     },
     {
       "id": "bronos.jira",
@@ -92,7 +92,10 @@
       "tag": "v0.7.0",
       "commit": "e43f5b392ec27ff61da2184cc6b3024aa51c54a1",
       "api": 1,
-      "category": "integrations"
+      "category": "integrations",
+      "preview": {
+        "sha256": "e90e0883897e7f6ac43dd96885b81774021f7514d8557de9a932e0466dd9f436"
+      }
     },
     {
       "id": "example.plugin",
