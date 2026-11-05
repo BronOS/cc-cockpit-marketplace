@@ -4,9 +4,9 @@
   "description": "Your Gmail in lanes (Unread, Alerts with Grafana grouping, Read), one Google account per project through your own OAuth client (the panel walks you through it). Open a thread as a clean page to discuss with Claude; with the Jira plugin, a mail from Jira shows its issue beside it. Sorted by Jev triage when installed. It only ever changes the read state: it never archives, labels, trashes or sends. Feeds Inbox 0.2.0 (inbox feed version 2). Needs cc-cockpit 0.9.1 or later (0.9.2 recommended); 0.10.0 for Inbox 0.2.0 and the overlay toolbar buttons.",
   "author": "BronOS",
   "repo": "https://github.com/BronOS/cc-cockpit-gmail.git",
-  "version": "0.5.0",
-  "tag": "v0.5.0",
-  "commit": "01c0ce5478cdb77b2cfc3af81c6dad460f96e7ab",
+  "version": "0.5.1",
+  "tag": "v0.5.1",
+  "commit": "884c15a66ef88f4aa70e11bf87227964aa7d2b4d",
   "api": 1,
   "category": "integrations",
   "owners": [741663]
