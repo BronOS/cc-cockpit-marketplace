@@ -52,13 +52,13 @@
       "description": "One list of what needs you across Chat, Mail and Jira (any plugin that offers an inbox feed, version 2), placed in groups by your own rules (Jev questions included), with done, snooze, undo and search, and Calendar's agenda in a slot. Rules are global, or a project keeps its own set (work and personal projects apart). It reads the other plugins through their services and has no account of its own. Needs cc-cockpit 0.10.0, and Chat 0.3.0, Gmail 0.5.0, Jira 0.7.0 or Calendar 0.3.0 as sources.",
       "author": "BronOS",
       "repo": "https://github.com/BronOS/cc-cockpit-inbox.git",
-      "version": "0.2.2",
-      "tag": "v0.2.2",
-      "commit": "2f81e68fae63485cfc0bb8b7f34e227f227fcc75",
+      "version": "0.2.3",
+      "tag": "v0.2.3",
+      "commit": "2a79c0d21ac9e14451515edc187e107b5def4104",
       "api": 1,
       "category": "productivity",
       "preview": {
-        "sha256": "42677e7a9f224f7cdd769783afa902abbfa44ac0ae535acd9c03a4c7314736a0"
+        "sha256": "461b076daadc79f7641ad08a0e7c4311ec93393174d3d2c1d8a56403445e86fe"
       }
     },
     {
@@ -83,7 +83,10 @@
       "tag": "v1.0.3",
       "commit": "60cd26825f69882c01f2b606059190bbd0191aea",
       "api": 1,
-      "category": "ai"
+      "category": "ai",
+      "preview": {
+        "sha256": "9a06f96207b7203ef1722623e7b2bfe6123434a77a5648d9c3dfeeba7a846c44"
+      }
     },
     {
       "id": "bronos.jira",
