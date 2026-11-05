@@ -35,7 +35,10 @@
       "tag": "v0.5.0",
       "commit": "01c0ce5478cdb77b2cfc3af81c6dad460f96e7ab",
       "api": 1,
-      "category": "integrations"
+      "category": "integrations",
+      "preview": {
+        "sha256": "b606f5f96ca37bb6674849777a7cb741ea8ed37c87392a9493ab933846f903e6"
+      }
     },
     {
       "id": "bronos.inbox",
