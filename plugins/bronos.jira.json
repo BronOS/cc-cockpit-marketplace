@@ -4,9 +4,9 @@
   "description": "Your Jira Cloud issues in lanes (Backlog, In progress, Mentioned, On hold, Done) with unread marks, read-only towards Jira. Open an issue as a styled page to discuss with Claude. Sorted by Jev triage when installed. Provides the jira service (issue status and view) to other plugins such as Gmail, and feeds Inbox 0.2.0 (inbox feed version 2). Needs cc-cockpit 0.8.0 or later; 0.10.0 for Inbox 0.2.0 and the overlay toolbar buttons.",
   "author": "BronOS",
   "repo": "https://github.com/BronOS/cc-cockpit-jira.git",
-  "version": "0.7.1",
-  "tag": "v0.7.1",
-  "commit": "e85f2460a439c8ff98418fc3cca629e1f5439a08",
+  "version": "0.7.2",
+  "tag": "v0.7.2",
+  "commit": "c7c71340270ced8cd0c798bf49a62e5d11811164",
   "api": 1,
   "category": "integrations",
   "owners": [741663]
