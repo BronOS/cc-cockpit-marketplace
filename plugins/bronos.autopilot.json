@@ -1,12 +1,12 @@
 {
   "id": "bronos.autopilot",
   "name": "Autopilot",
-  "description": "Watches every inbox feed (Chat, Gmail, Jira: any plugin that offers one) and, when an item matches one of your rules, opens a Claude tab that investigates it with a playbook you wrote. Read-only by its prompt, off by default, rules and playbooks are files in folders of yours (global ones for every project, and per project), edited in its panel, by hand or with Claude. Needs cc-cockpit 0.11.0.",
+  "description": "Watches every inbox feed (Chat, Gmail, Jira: any plugin that offers one) and, when an item matches one of your rules, opens a Claude tab that investigates it with a playbook you wrote, or runs one of the item's own actions (mark read, done) with no Claude at all. Read-only by its prompt unless a rule lists the actions its session may take; off by default; rules, playbooks and your standing instructions (base.md) are files in folders of yours (global ones for every project, and per project), edited in its panel, by hand or with Claude. Needs cc-cockpit 0.11.0.",
   "author": "BronOS",
   "repo": "https://github.com/BronOS/cc-cockpit-autopilot.git",
-  "version": "0.2.0",
-  "tag": "v0.2.0",
-  "commit": "be617ca93014af4e545079f0889cb350cccb9e75",
+  "version": "0.3.0",
+  "tag": "v0.3.0",
+  "commit": "16c26a944b7a2968d9f61b1c7c4d1270820ef88e",
   "api": 1,
   "category": "ai",
   "owners": [
