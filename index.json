@@ -37,9 +37,9 @@
       "description": "Your Google Chat in lanes (Mentions, Direct messages, Spaces, Alerts, Recent), sorted by Jev triage, a conversation opened as a clean page to discuss with Claude, Mark read / Mark unread. It changes nothing in Google Chat but your read state.",
       "author": "BronOS",
       "repo": "https://github.com/BronOS/cc-cockpit-chat.git",
-      "version": "0.3.2",
-      "tag": "v0.3.2",
-      "commit": "b307e5ee57d017d553c9d575e51167ae8dc3545f",
+      "version": "0.3.3",
+      "tag": "v0.3.3",
+      "commit": "027c4ef99f8b8d78b52ee12a54def13107352bf1",
       "api": 1,
       "category": "integrations",
       "preview": {
@@ -52,14 +52,11 @@
       "description": "Your Gmail in lanes (Unread, Alerts, Read), Grafana alerts grouped, sorted by Jev triage, a thread opened as a clean page to discuss with Claude (a mail reading layout with cc-cockpit 0.13.0+: remote pictures only when you ask, through an optional proxy, the sender's footer folded), Jira mail with its issue (with bronos.jira), mark read / unread. It only ever changes the read state: it never archives, labels, trashes or sends.",
       "author": "BronOS",
       "repo": "https://github.com/BronOS/cc-cockpit-gmail.git",
-      "version": "0.6.0",
-      "tag": "v0.6.0",
-      "commit": "c20ea732aebea631decc3678ba3e119c5e2549b7",
+      "version": "0.6.1",
+      "tag": "v0.6.1",
+      "commit": "d84b32c4f75dd14b11cf3b502020caabadaf45b2",
       "api": 1,
-      "category": "integrations",
-      "preview": {
-        "sha256": "c23483aacea3f74cb8304d3e3f0f6d388e7b8b3df97e410fb6f7a42e1ff89728"
-      }
+      "category": "integrations"
     },
     {
       "id": "bronos.inbox",
@@ -109,17 +106,14 @@
     {
       "id": "bronos.jira",
       "name": "Jira",
-      "description": "Your Jira Cloud issues in lanes (Backlog, In progress, Mentioned, On hold, Done) with unread marks, read-only towards Jira. Open an issue as a styled page to discuss with Claude. Sorted by Jev triage when installed. Provides the jira service (issue status and view) to other plugins such as Gmail, and feeds Inbox 0.2.0 (inbox feed version 2). Needs cc-cockpit 0.8.0 or later; 0.10.0 for Inbox 0.2.0 and the overlay toolbar buttons.",
+      "description": "Your Jira Cloud issues in lanes (Backlog, In progress, Mentioned, On hold, Done), unread marks, sorted by Jev triage, discussed with Claude. Read-only towards Jira. Provides the jira service (issue status, the issue view) to other plugins, such as bronos.gmail, and an inbox-feed of your issues for Inbox.",
       "author": "BronOS",
       "repo": "https://github.com/BronOS/cc-cockpit-jira.git",
-      "version": "0.7.2",
-      "tag": "v0.7.2",
-      "commit": "c7c71340270ced8cd0c798bf49a62e5d11811164",
+      "version": "0.7.3",
+      "tag": "v0.7.3",
+      "commit": "5f23f32c846d5054679c23feb837496df02c1067",
       "api": 1,
-      "category": "integrations",
-      "preview": {
-        "sha256": "b4adf22f8da911db472c062a9b15f533444744aa727f9f8c98711654646459f4"
-      }
+      "category": "integrations"
     },
     {
       "id": "example.plugin",
