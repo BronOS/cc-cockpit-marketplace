@@ -4,9 +4,9 @@
   "description": "Your Google Chat in lanes (Mentions, Direct messages, Spaces, Alerts, Recent), sorted by Jev triage, a conversation opened as a clean page to discuss with Claude, Mark read / Mark unread. It changes nothing in Google Chat but your read state.",
   "author": "BronOS",
   "repo": "https://github.com/BronOS/cc-cockpit-chat.git",
-  "version": "0.3.2",
-  "tag": "v0.3.2",
-  "commit": "b307e5ee57d017d553c9d575e51167ae8dc3545f",
+  "version": "0.3.3",
+  "tag": "v0.3.3",
+  "commit": "027c4ef99f8b8d78b52ee12a54def13107352bf1",
   "api": 1,
   "category": "integrations",
   "owners": [
