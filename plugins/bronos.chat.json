@@ -1,13 +1,15 @@
 {
   "id": "bronos.chat",
   "name": "Google Chat",
-  "description": "Your Google Chat in lanes (Mentions, Direct messages, Spaces, Alerts, Recent) for a Google Workspace account, one account per project through your own OAuth client (the panel walks you through it). Mark read and unread; open a conversation as a clean page to discuss with Claude. Sorted by Jev triage when installed. It changes nothing in Google Chat but your read state. Feeds Inbox 0.2.0 (inbox feed version 2). Needs cc-cockpit 0.9.2 or later; 0.10.0 for Inbox 0.2.0 and the overlay toolbar buttons.",
+  "description": "Your Google Chat in lanes (Mentions, Direct messages, Spaces, Alerts, Recent), sorted by Jev triage, a conversation opened as a clean page to discuss with Claude, Mark read / Mark unread. It changes nothing in Google Chat but your read state.",
   "author": "BronOS",
   "repo": "https://github.com/BronOS/cc-cockpit-chat.git",
-  "version": "0.3.1",
-  "tag": "v0.3.1",
-  "commit": "042a240867fb274db94e6dfee89a1826d9dfd544",
+  "version": "0.3.2",
+  "tag": "v0.3.2",
+  "commit": "b307e5ee57d017d553c9d575e51167ae8dc3545f",
   "api": 1,
   "category": "integrations",
-  "owners": [741663]
+  "owners": [
+    741663
+  ]
 }
