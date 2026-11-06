@@ -71,7 +71,10 @@
       "tag": "v0.2.4",
       "commit": "5cf77b2094aa993f221f2190e1efe0bb70af5c70",
       "api": 1,
-      "category": "productivity"
+      "category": "productivity",
+      "preview": {
+        "sha256": "461b076daadc79f7641ad08a0e7c4311ec93393174d3d2c1d8a56403445e86fe"
+      }
     },
     {
       "id": "bronos.jev-triage",
