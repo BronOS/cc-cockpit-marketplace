@@ -116,7 +116,10 @@
       "tag": "v0.7.3",
       "commit": "5f23f32c846d5054679c23feb837496df02c1067",
       "api": 1,
-      "category": "integrations"
+      "category": "integrations",
+      "preview": {
+        "sha256": "b4adf22f8da911db472c062a9b15f533444744aa727f9f8c98711654646459f4"
+      }
     },
     {
       "id": "example.plugin",
