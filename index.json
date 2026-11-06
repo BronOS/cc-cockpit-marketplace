@@ -4,12 +4,12 @@
     {
       "id": "bronos.autopilot",
       "name": "Autopilot",
-      "description": "Watches every inbox feed (Chat, Gmail, Jira: any plugin that offers one) and, when an item matches one of your rules, opens a Claude tab that investigates it with a playbook you wrote. Read-only by its prompt, off by default, rules and playbooks are files in folders of yours (global ones for every project, and per project), edited in its panel, by hand or with Claude. Needs cc-cockpit 0.11.0.",
+      "description": "Watches every inbox feed (Chat, Gmail, Jira: any plugin that offers one) and, when an item matches one of your rules, opens a Claude tab that investigates it with a playbook you wrote, or runs one of the item's own actions (mark read, done) with no Claude at all. Read-only by its prompt unless a rule lists the actions its session may take; off by default; rules, playbooks and your standing instructions (base.md) are files in folders of yours (global ones for every project, and per project), edited in its panel, by hand or with Claude. Needs cc-cockpit 0.11.0.",
       "author": "BronOS",
       "repo": "https://github.com/BronOS/cc-cockpit-autopilot.git",
-      "version": "0.2.0",
-      "tag": "v0.2.0",
-      "commit": "be617ca93014af4e545079f0889cb350cccb9e75",
+      "version": "0.3.0",
+      "tag": "v0.3.0",
+      "commit": "16c26a944b7a2968d9f61b1c7c4d1270820ef88e",
       "api": 1,
       "category": "ai",
       "preview": {
@@ -19,12 +19,12 @@
     {
       "id": "bronos.calendar",
       "name": "Google Calendar",
-      "description": "Your Google Calendar beside your Claude tabs: the meeting now and next with a countdown and Join, invitations to answer (Accept / Maybe / Decline), today, tomorrow and the next days, reminders with a sound you choose, an event opened as a clean page to discuss with Claude. One account per project through your own OAuth client (the panel walks you through it). It changes nothing in Google Calendar but your answers to invitations. Provides the agenda slot for Inbox 0.2.0 (needs cc-cockpit 0.10.0). Needs cc-cockpit 0.9.4 or later; 0.9.5 for reminder sounds and Join.",
+      "description": "Your Google Calendar beside your Claude tabs: the meeting now and next with a countdown and Join, invitations to answer, today, tomorrow and the next days, reminders before a meeting starts, an event opened as a clean page to discuss with Claude. It changes nothing in Google Calendar but your answers to invitations.",
       "author": "BronOS",
       "repo": "https://github.com/BronOS/cc-cockpit-calendar.git",
-      "version": "0.3.1",
-      "tag": "v0.3.1",
-      "commit": "d7363974e8b2b28dfe5b0f678f3a09ffd28d4390",
+      "version": "0.3.2",
+      "tag": "v0.3.2",
+      "commit": "f3af1f523c916037d5c7fbefde1c23be056217dd",
       "api": 1,
       "category": "integrations",
       "preview": {
@@ -64,32 +64,26 @@
     {
       "id": "bronos.inbox",
       "name": "Inbox",
-      "description": "One list of what needs you across Chat, Mail and Jira (any plugin that offers an inbox feed, version 2), placed in groups by your own rules (Jev questions included), with done, snooze, undo and search, and Calendar's agenda in a slot. Rules are global, or a project keeps its own set (work and personal projects apart). It reads the other plugins through their services and has no account of its own. Needs cc-cockpit 0.10.0, and Chat 0.3.0, Gmail 0.5.0, Jira 0.7.0 or Calendar 0.3.0 as sources.",
+      "description": "One list of what needs you across Chat, Mail and Jira (any plugin that offers an inbox feed, version 2), placed in groups by your own rules (Jev questions included), with done, snooze, undo and search, and Calendar's agenda in a slot. It reads the other plugins through their services and has no account of its own. Needs cc-cockpit 0.10.0.",
       "author": "BronOS",
       "repo": "https://github.com/BronOS/cc-cockpit-inbox.git",
-      "version": "0.2.3",
-      "tag": "v0.2.3",
-      "commit": "2a79c0d21ac9e14451515edc187e107b5def4104",
+      "version": "0.2.4",
+      "tag": "v0.2.4",
+      "commit": "5cf77b2094aa993f221f2190e1efe0bb70af5c70",
       "api": 1,
-      "category": "productivity",
-      "preview": {
-        "sha256": "461b076daadc79f7641ad08a0e7c4311ec93393174d3d2c1d8a56403445e86fe"
-      }
+      "category": "productivity"
     },
     {
       "id": "bronos.jev-triage",
       "name": "Jev triage",
-      "description": "Requires the Jev plugin (bronos.jev). The \"triage\" plugin service for source plugins (mail, Jira, chat): a priority (urgent, action, fyi, noise) and a kind per item, judged by Jev, with per-project rules, a profile of what you own, your corrections, and an improve loop that turns a wrong verdict into a better rule or profile in a Claude tab.",
+      "description": "Priority and kind for the items of source plugins (mail, Jira, chat), judged by Jev with project rules and your corrections: the \"triage\" plugin service.",
       "author": "BronOS",
       "repo": "https://github.com/BronOS/cc-cockpit-jev-triage.git",
-      "version": "1.0.2",
-      "tag": "v1.0.2",
-      "commit": "0b81124af3807ad94daff1e4a077d0a68e6a86b2",
+      "version": "1.0.3",
+      "tag": "v1.0.3",
+      "commit": "659b38e7487d698b958e20f7a2682060c2bda13e",
       "api": 1,
-      "category": "ai",
-      "preview": {
-        "sha256": "85f0c74a602d50c7089bf8113f1166e8c0b8ae669c81ab4a08b55259e18dea6a"
-      }
+      "category": "ai"
     },
     {
       "id": "bronos.jev",
