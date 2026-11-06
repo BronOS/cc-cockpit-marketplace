@@ -4,9 +4,9 @@
   "description": "Your Gmail in lanes (Unread, Alerts, Read), Grafana alerts grouped, sorted by Jev triage, a thread opened as a clean page to discuss with Claude (a mail reading layout with cc-cockpit 0.13.0+: remote pictures only when you ask, through an optional proxy, the sender's footer folded), Jira mail with its issue (with bronos.jira), mark read / unread. It only ever changes the read state: it never archives, labels, trashes or sends.",
   "author": "BronOS",
   "repo": "https://github.com/BronOS/cc-cockpit-gmail.git",
-  "version": "0.6.0",
-  "tag": "v0.6.0",
-  "commit": "c20ea732aebea631decc3678ba3e119c5e2549b7",
+  "version": "0.6.1",
+  "tag": "v0.6.1",
+  "commit": "d84b32c4f75dd14b11cf3b502020caabadaf45b2",
   "api": 1,
   "category": "integrations",
   "owners": [
