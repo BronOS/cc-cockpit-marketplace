@@ -83,7 +83,10 @@
       "tag": "v1.0.3",
       "commit": "659b38e7487d698b958e20f7a2682060c2bda13e",
       "api": 1,
-      "category": "ai"
+      "category": "ai",
+      "preview": {
+        "sha256": "85f0c74a602d50c7089bf8113f1166e8c0b8ae669c81ab4a08b55259e18dea6a"
+      }
     },
     {
       "id": "bronos.jev",
