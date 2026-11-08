@@ -137,6 +137,21 @@
       }
     },
     {
+      "id": "bronos.themes",
+      "name": "Theme Pack",
+      "description": "21 colour themes for cc-cockpit, on any system: Tokyo Night, Catppuccin Mocha and Latte, Rosé Pine Dawn, Nord, Gruvbox, Everforest, Kanagawa, Flexoki Light, Miasma, and Omarchy's own (Matte Black, Ethereal, Vantablack, White and more); 5 of them light. Pick one in Settings › Appearance. Each theme colours the app, its panels and the Claude terminals (the 16 terminal colours of the scheme). The palettes are the ones Omarchy ships, with the same mapping as the Omarchy Theme plugin, so a theme here matches it exactly. Plain theme files: the plugin runs no code.",
+      "author": "BronOS",
+      "repo": "https://github.com/BronOS/cc-cockpit-themes.git",
+      "version": "0.1.0",
+      "tag": "v0.1.0",
+      "commit": "91c09e6156ce5b6d14a2d3e7f8c6869e8837034d",
+      "api": 1,
+      "category": "appearance",
+      "preview": {
+        "sha256": "b3ce23eba49f3049e3cabcec45e766b4d52e822660c5803c782f3bfe73b60918"
+      }
+    },
+    {
       "id": "example.plugin",
       "name": "Example",
       "description": "A click counter to copy as a starting point for your own plugin. One panel, one setting, one command.",
