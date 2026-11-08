@@ -1,0 +1,15 @@
+{
+  "id": "bronos.omarchy-theme",
+  "name": "Omarchy Theme",
+  "description": "Makes cc-cockpit match your Omarchy desktop. Pick the theme \"Omarchy\" in Settings › Appearance and it follows whichever Omarchy theme is active: switch Omarchy from Tokyo Night to Catppuccin, Rose Pine or a light theme, and the app, its panels and the Claude terminals re-colour within a second, with no restart. How it works: the plugin reads the palette Omarchy writes for the active theme (~/.local/state/omarchy/current/theme/colors.toml) and maps it onto the app's colours: background and bar shades, text, accent, borders, session status dots, tab flags. The terminal gets the same 16 colours as Omarchy's own terminal, so a Claude tab matches the terminal next to it. It only reads those files; it runs no commands and sends nothing anywhere. Without Omarchy (another desktop, or a Mac) it is a Tokyo Night theme. Needs cc-cockpit 0.15.0 or later.",
+  "author": "BronOS",
+  "repo": "https://github.com/BronOS/cc-cockpit-omarchy-theme.git",
+  "version": "0.1.0",
+  "tag": "v0.1.0",
+  "commit": "a3dd1ca8a6154069e639144167baabc0b11c1ea9",
+  "api": 1,
+  "category": "appearance",
+  "owners": [
+    741663
+  ]
+}
