@@ -4,9 +4,9 @@
   "description": "Your GitHub work next to your Claude sessions: review requests (yours and your team's), your open pull requests with what happened last, issues assigned to you or mentioning you, and your failed CI runs, with unread marks. An item opens in an overlay with the conversation, the checks and the end of each failed job's log, and the changed files; Discuss with Claude hands it to a session. Signs in through the GitHub CLI (gh auth login), token in memory only. Writes only on your click: re-run failed jobs, mark the notification read or done. Provides an inbox-feed for Inbox, with labels from a shared code-host convention. Needs cc-cockpit 0.16.2.",
   "author": "BronOS",
   "repo": "https://github.com/BronOS/cc-cockpit-github.git",
-  "version": "0.1.0",
-  "tag": "v0.1.0",
-  "commit": "396a9e49caa33d6219ebe09345129a3b10cf5ff9",
+  "version": "0.1.1",
+  "tag": "v0.1.1",
+  "commit": "b542b4c5860c1e67b9cdfe6e251a2bf1192876de",
   "api": 1,
   "category": "integrations",
   "owners": [
