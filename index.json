@@ -47,6 +47,21 @@
       }
     },
     {
+      "id": "bronos.gitea",
+      "name": "Gitea / Forgejo",
+      "description": "Your work on a Gitea or Forgejo server next to your Claude sessions: review requests (yours and your team's), your open pull requests with what happened last, issues assigned to you or mentioning you, and your failed CI runs, with unread marks. An item opens in an overlay with the conversation, the checks, the changed files and, where the server has the API, the end of each failed job's log; Discuss with Claude hands it to a session. Signs in with a server address and an access token (bound to that server). Asks the server what it supports (Gitea 1.23 and newer, Forgejo). Writes only on your click: re-run failed jobs where the server can, mark the notification read. Provides an inbox-feed for Inbox, with the same labels as the GitHub plugin. Needs cc-cockpit 0.16.2.",
+      "author": "BronOS",
+      "repo": "https://github.com/BronOS/cc-cockpit-gitea.git",
+      "version": "0.1.0",
+      "tag": "v0.1.0",
+      "commit": "39cc590242e36f71f1ca056674beb806f5f82ca1",
+      "api": 1,
+      "category": "integrations",
+      "preview": {
+        "sha256": "3a96579b474699c6430e97f64f40be0f7727b0cc6536c36cc47858554424de6a"
+      }
+    },
+    {
       "id": "bronos.github",
       "name": "GitHub",
       "description": "Your GitHub work next to your Claude sessions: review requests (yours and your team's), your open pull requests with what happened last, issues assigned to you or mentioning you, and your failed CI runs, with unread marks. An item opens in an overlay with the conversation, the checks and the end of each failed job's log, and the changed files; Discuss with Claude hands it to a session. Signs in through the GitHub CLI (gh auth login), token in memory only. Writes only on your click: re-run failed jobs, mark the notification read or done. Provides an inbox-feed for Inbox, with labels from a shared code-host convention. Needs cc-cockpit 0.16.2.",
