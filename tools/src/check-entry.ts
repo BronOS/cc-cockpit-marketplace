@@ -21,6 +21,7 @@ import { join, resolve } from 'node:path'
 import { cloneArgs, gitEnv } from '../../../src/shared/git-source'
 import { isPlainObject } from '../../../src/shared/guards'
 import { relativePathProblem } from '../../../src/shared/manifest'
+import { rootAbsoluteUrlWarnings } from '../../../src/shared/root-absolute-urls'
 import {
   DEFAULT_MARKETPLACE_URL,
   MAX_PREVIEW_BYTES,
@@ -40,6 +41,7 @@ import {
   parseFlags,
   parseSourceEntry,
   quoted,
+  workflowCommandData,
   readRegularFile,
   sameEntryFile
 } from './common'
@@ -195,6 +197,8 @@ export async function inspectEntry(entry: MarketplaceEntry, opts: CheckOptions =
     const atCommit = head.code === 0 && commit === entry.commit
     if (!atCommit) problems.push(`the tag is at commit ${quoted(commit)}, the entry says ${quoted(entry.commit)}`)
     problems.push(...(await manifestProblems(dest, entry)))
+    // A warning only: the page works on the desktop, over web access a root-absolute URL breaks.
+    warnings.push(...(await rootAbsoluteUrlWarnings(dest)))
     const preview = readPreview(dest)
     // A bad image is refused at once, grace or not: only a missing one has the grace period.
     if ('problem' in preview) problems.push(preview.problem)
@@ -363,9 +367,11 @@ export async function main(argv: string[], opts: CheckOptions = {}): Promise<voi
       'usage: check-entry --entry <file> | --base <dir> --head <dir> [--preview-required-from <YYYY-MM-DD|none>] | --fetch-previews <dir> --out <dir> [--index-url <url>]'
     )
   }
-  // A workflow command on purpose, so the warning shows on the PR; the text after it is ours, with
-  // the file name quoted.
-  for (const warning of warnings) console.log(`::warning::check-entry: ${warning}`)
+  // A workflow command on purpose, so the warning shows on the PR. Its text can quote the entry's
+  // repo (a file name, a URL in a page), so it is escaped as the runner expects (`%`, CR and LF, as
+  // @actions/core's escapeData): a raw newline would start a command of its own (`::stop-commands::`,
+  // a forged `::error::`), in check.yml and in auto-merge's trusted re-check (review finding).
+  for (const warning of warnings) console.log(`::warning::check-entry: ${workflowCommandData(warning)}`)
   if (problems.length > 0) throw new ToolError(problems.join('\n'))
   console.log('check-entry: ok')
 }
