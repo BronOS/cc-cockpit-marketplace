@@ -113,6 +113,12 @@ function isPlainObject(v) {
   return typeof v === "object" && v !== null && !Array.isArray(v);
 }
 
+// ../../src/shared/page-tabs.ts
+var PAGE_TAB_TYPE_PATTERN = /^[a-z][a-z0-9-]{0,63}$/;
+var MAX_PAGE_TAB_TYPES = 10;
+var MAX_PAGE_TAB_KEYS = 32;
+var MAX_PAGE_TAB_PARAMS_BYTES = 4 * 1024;
+
 // ../../src/shared/slots.ts
 var SLOT_TYPE_PATTERN = /^[a-z][a-z0-9-]{0,63}$/;
 var MAX_PROVIDER_SLOTS = 10;
@@ -134,7 +140,7 @@ var CONTRIBUTION_ID_PATTERN = /^[A-Za-z0-9][A-Za-z0-9._-]{0,63}$/;
 var SKILL_ID_PATTERN = /^[a-z0-9][a-z0-9-]{0,63}$/;
 var MAX_SKILLS = 10;
 var CLI_NAME_PATTERN = /^[a-z][a-z0-9-]{1,31}$/;
-var CORE_CLI_COMMANDS = ["open", "hook", "statusline", "session", "overlay", "sessions", "notify", "guide", "plugin", "panel", "web", "help"];
+var CORE_CLI_COMMANDS = ["open", "hook", "statusline", "session", "overlay", "sessions", "notify", "download", "guide", "plugin", "panel", "web", "room", "help"];
 var RESERVED_CLI_NAMES = [...CORE_CLI_COMMANDS, "app", "config", "version"];
 var MAX_CLI_COMMANDS = 10;
 var SERVICE_NAME_PATTERN = /^[a-z][a-z0-9-]{0,63}$/;
@@ -275,7 +281,7 @@ var MANIFEST_SCHEMA = {
         },
         // An object, not `true`: the title is what the person reads when picking the plugin that
         // opens files, and a later field (file kinds, say) has room here.
-        openFile: { type: "object", required: ["title"], properties: { title } },
+        openFile: { type: "object", required: ["title"], properties: { title, whenPicked: { type: "boolean" } } },
         // Duplicate types, `min > max`, the `.html` entry and `main` are checked in validate.ts.
         slots: {
           type: "array",
@@ -284,6 +290,20 @@ var MANIFEST_SCHEMA = {
             type: "object",
             required: ["type", "entry"],
             properties: { type: slotType, entry: relativePath, title, minHeight: slotHeight, maxHeight: slotHeight }
+          }
+        },
+        // Duplicate types, the `.html` page, the chords and `main` are checked in validate.ts.
+        tabs: {
+          type: "array",
+          maxItems: MAX_PAGE_TAB_TYPES,
+          items: {
+            type: "object",
+            required: ["type", "page"],
+            properties: {
+              type: { type: "string", pattern: PAGE_TAB_TYPE_PATTERN.source },
+              page: relativePath,
+              keys: { type: "array", maxItems: MAX_PAGE_TAB_KEYS, uniqueItems: true, items: { type: "string", minLength: 1, maxLength: 64 } }
+            }
           }
         }
       }
