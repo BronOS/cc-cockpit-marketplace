@@ -167,6 +167,21 @@
       }
     },
     {
+      "id": "bronos.team",
+      "name": "Team",
+      "description": "Run a team of Claude tabs. Start a team, then hire members from a kickoff file (with model, effort and folder): each opens as a Claude tab in a split pane beside you, stacked in a column. Members talk through cc-cockpit Rooms (messages and shared docs) and ask you questions with ccc team ask; the Team panel shows what waits on you (answer in place), every member's state, cost, context and time, the room's activity and docs, and the team's numbers. End exports the docs, log and metrics to a folder and closes the tabs the hire opened (never yours or one you typed in). A tool, not a flow: no roles, phases or personas; bring your own kickoff files and skills. Runs only Claude tabs in this project and writes only the export folder you choose. Needs cc-cockpit 0.22.0 or later (Rooms from 0.19.1).",
+      "author": "BronOS",
+      "repo": "https://github.com/BronOS/cc-cockpit-team.git",
+      "version": "0.1.0",
+      "tag": "v0.1.0",
+      "commit": "bd1fa48899e82a8b224a52e2a42e37cd41914631",
+      "api": 1,
+      "category": "ai",
+      "preview": {
+        "sha256": "fad64ce18cdbfa6142abb642304272187a90adbda79494842a5b5f10239bea03"
+      }
+    },
+    {
       "id": "bronos.themes",
       "name": "Theme Pack",
       "description": "21 colour themes for cc-cockpit, on any system: Tokyo Night, Catppuccin Mocha and Latte, Rosé Pine Dawn, Nord, Gruvbox, Everforest, Kanagawa, Flexoki Light, Miasma, and Omarchy's own (Matte Black, Ethereal, Vantablack, White and more); 5 of them light. Pick one in Settings › Appearance. Each theme colours the app, its panels and the Claude terminals (the 16 terminal colours of the scheme). The palettes are the ones Omarchy ships, with the same mapping as the Omarchy Theme plugin, so a theme here matches it exactly. Plain theme files: the plugin runs no code.",
