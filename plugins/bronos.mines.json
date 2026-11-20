@@ -1,0 +1,15 @@
+{
+  "id": "bronos.mines",
+  "name": "Mines",
+  "description": "A mine-finding puzzle in a panel, to play while Claude works. Five boards from 9×9 to 30×16, a safe first click, flags (right-click or a Flag mode), opening around a number, keyboard play, and your best time per board. When a Claude tab of the window finishes and waits for you, the game pauses and names that tab, with a button to go to it. Reads only the window's tab statuses; never types into a session, runs nothing and uses no network.",
+  "author": "BronOS",
+  "repo": "https://github.com/BronOS/cc-cockpit-mines.git",
+  "version": "0.1.0",
+  "tag": "v0.1.0",
+  "commit": "18c61bf0fc4dddef2e4c1edb8c77e1d2a87c20d9",
+  "api": 1,
+  "category": "other",
+  "owners": [
+    741663
+  ]
+}
