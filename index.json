@@ -197,6 +197,21 @@
       }
     },
     {
+      "id": "bronos.solitaire",
+      "name": "Solitaire",
+      "description": "Classic seven-column patience in a panel, to play while Claude works. Tap a card and it goes where it fits, or drag it to choose; Draw 1 or Draw 3, unlimited undo, a Finish button once every card is face up, and games won and best time per draw mode. Cards scale with the panel, suit symbols are always shown and a four-colour deck is a setting. When a Claude tab of the window finishes and waits for you, the game pauses and names that tab, with a button to go to it. Reads only the window's tab statuses; never types into a session, runs nothing and uses no network.",
+      "author": "BronOS",
+      "repo": "https://github.com/BronOS/cc-cockpit-solitaire.git",
+      "version": "0.1.0",
+      "tag": "v0.1.0",
+      "commit": "52411a508fb93e002d4a9cefa3dbc05cd039cae4",
+      "api": 1,
+      "category": "other",
+      "preview": {
+        "sha256": "d7f5eaea19ebb24f1e871fcd00f737f631843896b3d77fc5d7c12523adb99f67"
+      }
+    },
+    {
       "id": "bronos.team",
       "name": "Team",
       "description": "Run a team of Claude tabs. Start a team, then hire members from a kickoff file (with model, effort and folder): each opens as a Claude tab in a split pane beside you, stacked in a column. Members talk through cc-cockpit Rooms (messages and shared docs) and ask you questions with ccc team ask; the Team panel shows what waits on you (answer in place), every member's state, cost, context and time, the room's activity and docs, and the team's numbers. End exports the docs, log and metrics to a folder and closes the tabs the hire opened (never yours or one you typed in). A tool, not a flow: no roles, phases or personas; bring your own kickoff files and skills. Runs only Claude tabs in this project and writes only the export folder you choose. Needs cc-cockpit 0.22.0 or later (Rooms from 0.19.1).",
