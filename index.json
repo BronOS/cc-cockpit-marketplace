@@ -212,6 +212,21 @@
       }
     },
     {
+      "id": "bronos.tiles",
+      "name": "Tiles",
+      "description": "Sliding number tiles in a panel, to play while Claude works. Slide with the arrows, WASD or a swipe, merge equal tiles and reach the gold tile; three boards (4×4, 5×5, 6×6), one step of undo and your best score per board. When a Claude tab of the window finishes and waits for you, the game pauses and names that tab, with a button to go to it. Reads only the window's tab statuses; never types into a session, runs nothing and uses no network.",
+      "author": "BronOS",
+      "repo": "https://github.com/BronOS/cc-cockpit-tiles.git",
+      "version": "0.1.0",
+      "tag": "v0.1.0",
+      "commit": "aad72902394a762f1e1c5ed6066c6842d5918f86",
+      "api": 1,
+      "category": "other",
+      "preview": {
+        "sha256": "285541f5c6f06c7348466b52cc5cafaf75963da72b245a7406b8edce08028bee"
+      }
+    },
+    {
       "id": "example.plugin",
       "name": "Example",
       "description": "A click counter to copy as a starting point for your own plugin. One panel, one setting, one command.",
