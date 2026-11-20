@@ -1,0 +1,15 @@
+{
+  "id": "bronos.bricks",
+  "name": "Bricks",
+  "description": "A paddle-and-ball brick game in a panel, to play while Claude works. Move the paddle with the mouse or arrows; the hit point sets the angle. Strong bricks show their hits left as notches, capsules widen the paddle, slow the ball or add a ball, and five levels repeat faster. Calm, Normal and Fast speeds with a best score each. It pauses on Space, when the pointer leaves the board, when the panel is hidden and when a Claude tab of the window finishes and waits for you, naming that tab with a button to go to it. Reads only the window's tab statuses; never types into a session, runs nothing and uses no network.",
+  "author": "BronOS",
+  "repo": "https://github.com/BronOS/cc-cockpit-bricks.git",
+  "version": "0.1.0",
+  "tag": "v0.1.0",
+  "commit": "391f967e8a0a1f0f67a3bcd1a7f07dd8fddba408",
+  "api": 1,
+  "category": "other",
+  "owners": [
+    741663
+  ]
+}
