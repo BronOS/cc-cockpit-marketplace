@@ -67,14 +67,11 @@
       "description": "Your GitHub work next to your Claude sessions: review requests (yours and your team's), your open pull requests with what happened last, issues assigned to you or mentioning you, and your failed CI runs, with unread marks. An item opens in an overlay with the conversation, the checks and the end of each failed job's log, and the changed files; Discuss with Claude hands it to a session. Signs in through the GitHub CLI (gh auth login), token in memory only. Writes only on your click: re-run failed jobs, mark the notification read or done. Provides an inbox-feed for Inbox, with labels from a shared code-host convention. Needs cc-cockpit 0.16.2.",
       "author": "BronOS",
       "repo": "https://github.com/BronOS/cc-cockpit-github.git",
-      "version": "0.1.1",
-      "tag": "v0.1.1",
-      "commit": "b542b4c5860c1e67b9cdfe6e251a2bf1192876de",
+      "version": "0.2.0",
+      "tag": "v0.2.0",
+      "commit": "5c53728ce1eeea3e225775561f2272c96865b258",
       "api": 1,
-      "category": "integrations",
-      "preview": {
-        "sha256": "e856ba5fc4a8305658b53470bbe64b80c5a0b146bd12a332e2e136d38fd788fe"
-      }
+      "category": "integrations"
     },
     {
       "id": "bronos.gmail",
@@ -82,9 +79,9 @@
       "description": "Your Gmail in lanes (Unread, Alerts, Read), Grafana alerts grouped, sorted by Jev triage, a thread opened as a clean page to discuss with Claude (a mail reading layout with cc-cockpit 0.13.0+: remote pictures only when you ask, through an optional proxy, the sender's footer folded), Jira mail with its issue (with bronos.jira), mark read / unread. It only ever changes the read state: it never archives, labels, trashes or sends.",
       "author": "BronOS",
       "repo": "https://github.com/BronOS/cc-cockpit-gmail.git",
-      "version": "0.6.1",
-      "tag": "v0.6.1",
-      "commit": "d84b32c4f75dd14b11cf3b502020caabadaf45b2",
+      "version": "0.7.0",
+      "tag": "v0.7.0",
+      "commit": "6199281ff929d5265336afbd7b991ae8cf081834",
       "api": 1,
       "category": "integrations",
       "preview": {
