@@ -1,0 +1,15 @@
+{
+  "id": "bronos.solitaire",
+  "name": "Solitaire",
+  "description": "Classic seven-column patience in a panel, to play while Claude works. Tap a card and it goes where it fits, or drag it to choose; Draw 1 or Draw 3, unlimited undo, a Finish button once every card is face up, and games won and best time per draw mode. Cards scale with the panel, suit symbols are always shown and a four-colour deck is a setting. When a Claude tab of the window finishes and waits for you, the game pauses and names that tab, with a button to go to it. Reads only the window's tab statuses; never types into a session, runs nothing and uses no network.",
+  "author": "BronOS",
+  "repo": "https://github.com/BronOS/cc-cockpit-solitaire.git",
+  "version": "0.1.0",
+  "tag": "v0.1.0",
+  "commit": "52411a508fb93e002d4a9cefa3dbc05cd039cae4",
+  "api": 1,
+  "category": "other",
+  "owners": [
+    741663
+  ]
+}
