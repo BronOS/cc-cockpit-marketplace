@@ -71,7 +71,10 @@
       "tag": "v0.2.0",
       "commit": "5c53728ce1eeea3e225775561f2272c96865b258",
       "api": 1,
-      "category": "integrations"
+      "category": "integrations",
+      "preview": {
+        "sha256": "e856ba5fc4a8305658b53470bbe64b80c5a0b146bd12a332e2e136d38fd788fe"
+      }
     },
     {
       "id": "bronos.gmail",
