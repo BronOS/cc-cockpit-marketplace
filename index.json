@@ -62,6 +62,21 @@
       }
     },
     {
+      "id": "bronos.durak",
+      "name": "Durak",
+      "description": "Durak, the classic card game (the throw-in kind), against one, two or three computer players in a panel, to play while Claude works. 36 cards, a trump under the deck, attack and defend, throw in by rank, take or beat; whoever runs out once the deck is empty is safe and the last one holding cards is the durak. Easy and Normal opponents, your wins and losses kept, cards that scale with the panel, trumps marked by a corner tab and a four-colour deck as a setting. When a Claude tab of the window finishes and waits for you, the game pauses and names that tab, with a button to go to it. Reads only the window's tab statuses; never types into a session, runs nothing and uses no network.",
+      "author": "BronOS",
+      "repo": "https://github.com/BronOS/cc-cockpit-durak.git",
+      "version": "0.1.0",
+      "tag": "v0.1.0",
+      "commit": "3648ce08393f040d5fbbd9c62af772638ec55d90",
+      "api": 1,
+      "category": "other",
+      "preview": {
+        "sha256": "7a1e6c89eec4e756f1569bf4729b44213b016403144ac598331a4f042f63cdef"
+      }
+    },
+    {
       "id": "bronos.gitea",
       "name": "Gitea / Forgejo",
       "description": "Your work on a Gitea or Forgejo server next to your Claude sessions: review requests (yours and your team's), your open pull requests with what happened last, issues assigned to you or mentioning you (and, if you like, the ones you opened), and your failed CI runs, with unread marks. An item opens in an overlay with the conversation, the checks, the changed files and, where the server has the API, the end of each failed job's log; Discuss with Claude hands it to a session. Signs in with a server address and an access token (bound to that server). Asks the server what it supports (Gitea 1.23 and newer, Forgejo). Writes only on your click: re-run failed jobs where the server can, mark the notification read. Provides an inbox-feed for Inbox, with the same labels as the GitHub plugin. Needs cc-cockpit 0.16.2.",
