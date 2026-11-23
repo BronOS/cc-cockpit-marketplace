@@ -4,9 +4,9 @@
   "description": "Deberc, the klaberjass-family card game, in a panel to play while Claude works: four players in pairs with a computer partner, or three each for themselves, first to 501. 32 cards, bid on the turned trump or name another suit, swap the trump 7, follow suit and trump by the rules, terz and 50 melds, bella, the last trick, and a taker who falls when the side scores less. A scoreboard with this deal's points and a score sheet of every deal, Easy and Normal computer players, your wins and losses kept, cards that scale with the panel, trumps marked by a corner tab and a four-colour deck as a setting. When a Claude tab of the window finishes and waits for you, the game pauses and names that tab, with a button to go to it. Reads only the window's tab statuses; never types into a session, runs nothing and uses no network.",
   "author": "BronOS",
   "repo": "https://github.com/BronOS/cc-cockpit-deberc.git",
-  "version": "0.1.0",
-  "tag": "v0.1.0",
-  "commit": "77437ec3034c54f155d1641f87d95e2a9d82ae93",
+  "version": "0.1.1",
+  "tag": "v0.1.1",
+  "commit": "cbdbfc6e3f7ef25f17ea5cedec04ca09ac85092b",
   "api": 1,
   "category": "other",
   "owners": [
