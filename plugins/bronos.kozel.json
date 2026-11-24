@@ -1,0 +1,15 @@
+{
+  "id": "bronos.kozel",
+  "name": "Kozel",
+  "description": "Kozel (the goat), the Soviet courtyard domino game, in a panel to play while Claude works: four players in two pairs with a computer partner and two computer opponents, 28 tiles of a double-six set, first to 101. The 1-1 opens the first round, the chain snakes to fit the panel, a player who goes out scores the opponents' pips and a blocked game (the fish) goes to the lightest hand; a team still at zero when the other reaches 101 is the goat. When a Claude tab of the window finishes and waits for you, the game pauses and names that tab, with a button to go to it. Reads only the window's tab statuses; never types into a session, runs nothing and uses no network.",
+  "author": "BronOS",
+  "repo": "https://github.com/BronOS/cc-cockpit-kozel.git",
+  "version": "0.1.0",
+  "tag": "v0.1.0",
+  "commit": "d4d3979bb6295af8cac2e9dbcfecfc37389b3b45",
+  "api": 1,
+  "category": "other",
+  "owners": [
+    741663
+  ]
+}
