@@ -1,12 +1,12 @@
 {
   "id": "bronos.jira",
   "name": "Jira",
-  "description": "Your Jira Cloud issues in lanes (Backlog, In progress, Mentioned, On hold, Done), unread marks, sorted by Jev triage, discussed with Claude. Comments and status changes from a reply page; ccc jira update drafts them for you to post (or writes directly, or is off: a setting with a per-project override). Provides the jira service (issue status, the issue view) to other plugins, such as bronos.gmail, and an inbox-feed of your issues for Inbox. Needs cc-cockpit 0.10.1 or later for ccc jira update.",
+  "description": "Your Jira Cloud issues in lanes (Backlog, In progress, Mentioned, On hold, Done), unread marks, sorted by Jev triage, discussed with Claude. An issue opens in its own window with notes, Ask and Reply (a comment or a status change); ccc jira update drafts one for you to post (or writes directly, or is off: a setting). Shows the issue beside a Gmail mail or a calendar event that names it. Provides the jira service (issue status, the issue window) to other plugins, such as bronos.gmail, and an inbox-feed of your issues for Inbox. Notes, Ask and the issue beside a mail need cc-cockpit 0.28.0.",
   "author": "BronOS",
   "repo": "https://github.com/BronOS/cc-cockpit-jira.git",
-  "version": "0.8.0",
-  "tag": "v0.8.0",
-  "commit": "f9eaf5d80a67f7cba6e879bc81425afba64ad877",
+  "version": "0.9.0",
+  "tag": "v0.9.0",
+  "commit": "ca3fba44e9935839246c4c6672ed7e59327e5c10",
   "api": 1,
   "category": "integrations",
   "owners": [
