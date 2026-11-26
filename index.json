@@ -34,12 +34,12 @@
     {
       "id": "bronos.calendar",
       "name": "Google Calendar",
-      "description": "Your Google Calendar beside your Claude tabs: the meeting now and next with a countdown and Join, invitations to answer, today, tomorrow and the next days, reminders before a meeting starts, an event opened as a clean page to discuss with Claude. It changes nothing in Google Calendar but your answers to invitations.",
+      "description": "Your Google Calendar beside your Claude tabs: the meeting now and next with a countdown and Join, invitations to answer, today, tomorrow and the next days, reminders before a meeting starts, an event opened in its own window with notes, Ask and Discuss with Claude, and the Jira issue it names beside it (with bronos.jira). It changes nothing in Google Calendar but your answers to invitations. Notes and Ask need cc-cockpit 0.28.0.",
       "author": "BronOS",
       "repo": "https://github.com/BronOS/cc-cockpit-calendar.git",
-      "version": "0.3.2",
-      "tag": "v0.3.2",
-      "commit": "f3af1f523c916037d5c7fbefde1c23be056217dd",
+      "version": "0.4.0",
+      "tag": "v0.4.0",
+      "commit": "f5965dd874f64a1735d59b2fe92537afacb03359",
       "api": 1,
       "category": "integrations",
       "preview": {
@@ -49,12 +49,12 @@
     {
       "id": "bronos.chat",
       "name": "Google Chat",
-      "description": "Your Google Chat in lanes (Mentions, Direct messages, Spaces, Alerts, Recent), sorted by Jev triage, a conversation opened as a clean page to discuss with Claude, Mark read / Mark unread. It changes nothing in Google Chat but your read state.",
+      "description": "Your Google Chat in lanes (Mentions, Direct messages, Spaces, Alerts, Recent), sorted by Jev triage, a conversation opened in its own window with notes, Ask and Discuss with Claude, Mark read / Mark unread. It changes nothing in Google Chat but your read state. Notes and Ask need cc-cockpit 0.28.0.",
       "author": "BronOS",
       "repo": "https://github.com/BronOS/cc-cockpit-chat.git",
-      "version": "0.3.3",
-      "tag": "v0.3.3",
-      "commit": "027c4ef99f8b8d78b52ee12a54def13107352bf1",
+      "version": "0.4.0",
+      "tag": "v0.4.0",
+      "commit": "d581753ac192b23c4249a61bd1d28fff3cfe5d95",
       "api": 1,
       "category": "integrations",
       "preview": {
@@ -124,17 +124,14 @@
     {
       "id": "bronos.gmail",
       "name": "Gmail",
-      "description": "Your Gmail in lanes (Unread, Alerts, Read), Grafana alerts grouped, sorted by Jev triage, a thread opened as a clean page to discuss with Claude (a mail reading layout with cc-cockpit 0.13.0+: remote pictures only when you ask, through an optional proxy, the sender's footer folded), Jira mail with its issue (with bronos.jira), mark read / unread. It only ever changes the read state: it never archives, labels, trashes or sends.",
+      "description": "Your Gmail in lanes (Unread, Alerts, Read), Grafana alerts grouped, sorted by Jev triage, mark read / unread. A thread opens in its own window in every view: Reader or Original, remote pictures only when you ask (through an optional proxy), notes, Ask and Discuss with Claude, and the linked Jira issue beside Jira mail (with bronos.jira). It only ever changes the read state: it never archives, labels, trashes or sends. Notes, Ask and the issue beside a mail need cc-cockpit 0.28.0.",
       "author": "BronOS",
       "repo": "https://github.com/BronOS/cc-cockpit-gmail.git",
-      "version": "0.7.0",
-      "tag": "v0.7.0",
-      "commit": "6199281ff929d5265336afbd7b991ae8cf081834",
+      "version": "0.8.0",
+      "tag": "v0.8.0",
+      "commit": "a59d35da4fb8e697c28767b2f094b911c3810d39",
       "api": 1,
-      "category": "integrations",
-      "preview": {
-        "sha256": "c23483aacea3f74cb8304d3e3f0f6d388e7b8b3df97e410fb6f7a42e1ff89728"
-      }
+      "category": "integrations"
     },
     {
       "id": "bronos.inbox",
