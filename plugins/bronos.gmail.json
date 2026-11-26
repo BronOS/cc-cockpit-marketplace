@@ -1,12 +1,12 @@
 {
   "id": "bronos.gmail",
   "name": "Gmail",
-  "description": "Your Gmail in lanes (Unread, Alerts, Read), Grafana alerts grouped, sorted by Jev triage, a thread opened as a clean page to discuss with Claude (a mail reading layout with cc-cockpit 0.13.0+: remote pictures only when you ask, through an optional proxy, the sender's footer folded), Jira mail with its issue (with bronos.jira), mark read / unread. It only ever changes the read state: it never archives, labels, trashes or sends.",
+  "description": "Your Gmail in lanes (Unread, Alerts, Read), Grafana alerts grouped, sorted by Jev triage, mark read / unread. A thread opens in its own window in every view: Reader or Original, remote pictures only when you ask (through an optional proxy), notes, Ask and Discuss with Claude, and the linked Jira issue beside Jira mail (with bronos.jira). It only ever changes the read state: it never archives, labels, trashes or sends. Notes, Ask and the issue beside a mail need cc-cockpit 0.28.0.",
   "author": "BronOS",
   "repo": "https://github.com/BronOS/cc-cockpit-gmail.git",
-  "version": "0.7.0",
-  "tag": "v0.7.0",
-  "commit": "6199281ff929d5265336afbd7b991ae8cf081834",
+  "version": "0.8.0",
+  "tag": "v0.8.0",
+  "commit": "a59d35da4fb8e697c28767b2f094b911c3810d39",
   "api": 1,
   "category": "integrations",
   "owners": [
