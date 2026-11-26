@@ -1,12 +1,12 @@
 {
   "id": "bronos.calendar",
   "name": "Google Calendar",
-  "description": "Your Google Calendar beside your Claude tabs: the meeting now and next with a countdown and Join, invitations to answer, today, tomorrow and the next days, reminders before a meeting starts, an event opened as a clean page to discuss with Claude. It changes nothing in Google Calendar but your answers to invitations.",
+  "description": "Your Google Calendar beside your Claude tabs: the meeting now and next with a countdown and Join, invitations to answer, today, tomorrow and the next days, reminders before a meeting starts, an event opened in its own window with notes, Ask and Discuss with Claude, and the Jira issue it names beside it (with bronos.jira). It changes nothing in Google Calendar but your answers to invitations. Notes and Ask need cc-cockpit 0.28.0.",
   "author": "BronOS",
   "repo": "https://github.com/BronOS/cc-cockpit-calendar.git",
-  "version": "0.3.2",
-  "tag": "v0.3.2",
-  "commit": "f3af1f523c916037d5c7fbefde1c23be056217dd",
+  "version": "0.4.0",
+  "tag": "v0.4.0",
+  "commit": "f5965dd874f64a1735d59b2fe92537afacb03359",
   "api": 1,
   "category": "integrations",
   "owners": [
