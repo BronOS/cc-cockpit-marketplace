@@ -191,7 +191,10 @@
       "tag": "v0.9.0",
       "commit": "ca3fba44e9935839246c4c6672ed7e59327e5c10",
       "api": 1,
-      "category": "integrations"
+      "category": "integrations",
+      "preview": {
+        "sha256": "b4adf22f8da911db472c062a9b15f533444744aa727f9f8c98711654646459f4"
+      }
     },
     {
       "id": "bronos.kozel",
